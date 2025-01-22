@@ -1,0 +1,58 @@
+[27-Dec-2024 08:03:21 UTC] PHP Warning:  require(phpmailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/sajibgpo/public_html/marketing/index.php on line 4
+[27-Dec-2024 08:03:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/PHPMailer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sajibgpo/public_html/marketing/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 4
+[27-Dec-2024 08:03:29 UTC] PHP Warning:  require(phpmailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/sajibgpo/public_html/marketing/index.php on line 4
+[27-Dec-2024 08:03:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/PHPMailer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sajibgpo/public_html/marketing/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 4
+[27-Dec-2024 08:45:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sajibgpo/public_html/marketing/index.php on line 86
+[27-Dec-2024 08:45:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sajibgpo/public_html/marketing/index.php on line 86
+[27-Dec-2024 08:45:31 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sajibgpo/public_html/marketing/index.php on line 86
+[27-Dec-2024 08:46:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:97
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(97): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 97
+[27-Dec-2024 08:46:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:97
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(97): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 97
+[27-Dec-2024 08:46:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:97
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(97): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 97
+[27-Dec-2024 08:47:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:97
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(97): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 97
+[27-Dec-2024 08:47:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:97
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(97): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 97
+[27-Dec-2024 08:48:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:16
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(16): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 16
+[27-Dec-2024 08:48:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/sajibgpo/public_html/marketing/index.php:16
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/index.php(16): mysqli->__construct()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/index.php on line 16
+[27-Dec-2024 09:55:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'sajibgpo_transaction_reports.customers' doesn't exist in /home/sajibgpo/public_html/marketing/compose_email.php:34
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/compose_email.php(34): mysqli->query()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/compose_email.php on line 34
+[06-Jan-2025 08:26:25 UTC] PHP Fatal error:  Uncaught TypeError: array_chunk(): Argument #1 ($array) must be of type array, string given in /home/sajibgpo/public_html/marketing/compose_email.php:45
+Stack trace:
+#0 /home/sajibgpo/public_html/marketing/compose_email.php(45): array_chunk()
+#1 {main}
+  thrown in /home/sajibgpo/public_html/marketing/compose_email.php on line 45

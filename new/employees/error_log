@@ -1,0 +1,6 @@
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  include(../includes/auth.php): Failed to open stream: No such file or directory in /home/sajibgpo/public_html/capix/new/employees/index.php on line 1
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  include(): Failed opening '../includes/auth.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sajibgpo/public_html/capix/new/employees/index.php on line 1
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sajibgpo/public_html/capix/new/employees/index.php on line 53
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sajibgpo/public_html/capix/new/employees/index.php on line 53
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sajibgpo/public_html/capix/new/employees/index.php on line 144
+[11-Jan-2025 06:30:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sajibgpo/public_html/capix/new/employees/index.php on line 144

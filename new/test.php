@@ -11,7 +11,13 @@
                <!-- dashboard inner -->
                <div class="midde_cont">
                   <div class="container-fluid">
-                    
+                   <div class="row column_title" bis_skin_checked="1">
+                        <div class="col-md-12" bis_skin_checked="1">
+                           <div class="page_title" bis_skin_checked="1">
+                              <h2>Emails List</h2>
+                           </div>
+                        </div>
+                     </div> 
                      <!------   Main Content Here       -->
 
 

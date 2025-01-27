@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
    <?php include "inc/head.php"; ?>
+</head>
    <body class="inner_page widgets">
       <div class="full_container">
          <div class="inner_container">

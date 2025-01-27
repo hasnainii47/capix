@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
    <?php include "inc/head.php"; ?>
+   
+      <!-- Include CKEditor 5 CDN -->
+      <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+   </head>
    <body class="inner_page widgets">
       <div class="full_container">
          <div class="inner_container">
@@ -11,7 +16,7 @@
                <!-- dashboard inner -->
                <div class="midde_cont">
                   <div class="container-fluid">
-                    <div class="row column_title" bis_skin_checked="1">
+                     <div class="row column_title" bis_skin_checked="1">
                         <div class="col-md-12" bis_skin_checked="1">
                            <div class="page_title" bis_skin_checked="1">
                               <h2>Email</h2>
@@ -30,9 +35,6 @@
                           <div class="mb-3">
                               <label for="body" class="form-label">Email Body</label>
                               <textarea class="form-control" id="body" name="body" rows="8"></textarea>
-                              <script>
-                                  CKEDITOR.replace('body');
-                              </script>
                           </div>
 
                           <!-- Attachments -->
@@ -53,6 +55,22 @@
             </div>
          </div>
       </div>
+
+      <!-- Initialize CKEditor with Fixed Height -->
+      <script>
+         ClassicEditor
+            .create(document.querySelector('#body'), {
+               // Configure editor height
+               height: '300px' // Approximately 7-8 rows
+            })
+            .then(editor => {
+               editor.ui.view.editable.element.style.height = '300px'; // Set height explicitly
+            })
+            .catch(error => {
+               console.error(error);
+            });
+      </script>
+
       <?php include "inc/scripts.php"; ?>
-     </body>
+   </body>
 </html>

@@ -105,7 +105,9 @@ if ($stmt = $mysqli->prepare($que)) {
    ?>
 <!DOCTYPE html>
 <html lang="en">
+  <head>
    <?php include "inc/head.php"; ?>
+</head>
    <body class="inner_page widgets">
       <div class="full_container">
          <div class="inner_container">
@@ -300,6 +302,8 @@ if ($stmt = $mysqli->prepare($que)) {
          </div>
       </div>
       <?php include "inc/scripts.php"; ?>
+
+      
      </body>
 </html>
 <?php

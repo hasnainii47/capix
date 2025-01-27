@@ -19,7 +19,7 @@
                <div class="sidebar_blog_2">
                   <h4>General</h4>
                   <ul class="list-unstyled components">
-                     <li><a href="dashboard.php"><i class="fa fa-dashboard yellow_color"></i> <span>Departments</span></a></li>
+                     <li><a href="dashboard.php"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a></li>
                      
                      <li><a href="departments.php"><i class="fa fa-building orange_color"></i> <span>Departments</span></a></li>
                      <li><a href="employees.php"><i class="fa fa-users purple_color"></i> <span>Employees</span></a></li>
@@ -27,7 +27,7 @@
                         <a href="#emails" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-paper-plane red_color"></i> <span>Email</span></a>
                         <ul class="collapse list-unstyled" id="emails">
                            <li>
-                              <a href="compose_email.php">> <span>Send Email</span></a>
+                              <a href="email.php">> <span>Send Email</span></a>
                            </li>
                            <li>
                               <a href="emails_list.php">> <span>Emails List</span></a>

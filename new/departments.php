@@ -90,7 +90,7 @@ $total_pages = $mysqli->query($quer)->num_rows;
 $page = isset($_GET['page']) && is_numeric($_GET['page']) ? $_GET['page'] : 1;
 
 // Number of results to show on each page
-$num_results_on_page = 25;
+$num_results_on_page = 50;
 $que = "SELECT * FROM departments ORDER BY id DESC LIMIT ?,?";
 
 if ($stmt = $mysqli->prepare($que)) {
@@ -101,7 +101,9 @@ if ($stmt = $mysqli->prepare($que)) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <?php include "inc/head.php"; ?>
+</head>
 <body class="inner_page widgets">
     <div class="full_container">
         <div class="inner_container">
@@ -221,21 +223,8 @@ if ($stmt = $mysqli->prepare($que)) {
                                             </table>
                                         </div>
                                     </div>
-                                    <!-- Pagination -->
-                                    <?php if (ceil($total_pages / $num_results_on_page) > 0): ?>
-                                    <ul class="pagination">
-                                        <?php if ($page > 1): ?>
-                                        <li><a href="departments_list.php?page=<?php echo $page - 1 ?>">Prev</a></li>
-                                        <?php endif; ?>
-                                        <?php for ($i = 1; $i <= ceil($total_pages / $num_results_on_page); $i++): ?>
-                                        <li><a href="departments_list.php?page=<?php echo $i ?>"><?php echo $i ?></a></li>
-                                        <?php endfor; ?>
-                                        <?php if ($page < ceil($total_pages / $num_results_on_page)): ?>
-                                        <li><a href="departments_list.php?page=<?php echo $page + 1 ?>">Next</a></li>
-                                        <?php endif; ?>
-                                    </ul>
-                                    <?php endif; ?>
                                 </div>
+
                             </div>
                         </div>
                     </div>
